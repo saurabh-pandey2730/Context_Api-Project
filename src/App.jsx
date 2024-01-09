@@ -7,10 +7,11 @@ function App() {
  
 
   return (
-    <UserContextProvider>
+    <UserContextProvider >
 
      <Login/>
      <Profile/>
+     
     </UserContextProvider>
     
   )
